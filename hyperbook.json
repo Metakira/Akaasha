@@ -6,7 +6,47 @@
     "name": "Mike Barkmin",
     "url": "https://barkmin.eu"
   },
-  "license": "CC-BY-SA",
   "language": "en",
-  "basePath": "/akaasha"
+  "basePath": "/akaasha/book/index.md",
+  "repo": {
+    "url": "https://github.com/metakira/akaasha",
+    "label": "Edit on GitHub"
+  },
+  "colors": {
+    "brand": "#FF0000"
+  },
+  "elements": {
+    "bookmarks": false
+  },
+  "links": [
+    {
+      "label": "Contact",
+      "links": [
+        {
+          "label": "Mail",
+          "icon": "📧",
+          "href": "mailto:contact@openpatch.org"
+        },
+        {
+          "label": "Twitter",
+          "icon": "🐦",
+          "href": "https://twitter.com/openpatchorg"
+        },
+        {
+          "label": "Mastodon",
+          "icon": "🐘",
+          "href": "https://fosstodon.org/@openpatch"
+        },
+        {
+          "label": "Matrix (Chat)",
+          "icon": "👨‍💻",
+          "href": "https://matrix.to/#/#hyperbook:matrix.org"
+        }
+      ]
+    },
+    {
+      "label": "OpenPatch",
+      "href": "https://openpatch.org"
+    }
+  ]
 }
