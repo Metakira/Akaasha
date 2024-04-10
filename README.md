@@ -1,15 +1,54 @@
-# Hyperbook Anywhere Starter
-
-This template repository can be used as a starter for developing a [Hyperbook](https://hyperbook.openpatch.org). You just need to fork it and modify the `basePath` in the `hyperbook.json`.
-
-It contains the necessary files for automatic deployment to GitHub Pages, GitLab Pages and Vercel.
-
-- GitHub Pages: `.github/workflows/pages.yml`
-- GitLab Pages: `.gitlab-ci.yml`
-- Vercel: `vercel.json`
-
-It also contains files for working in VS Code and VS Codium (`.vscode`) for local development.
-
-If you want a rapid start you can also open this repository in Gitpod.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/openpatch/hyperbook-anywhere)
+{
+  "name": "Hyperbook Documentation",
+  "description": "Documentation for Hyperbook created with Hyperbook",
+  "author": {
+    "name": "OpenPatch",
+    "url": "https://openpatch.org"
+  },
+  "font": "/fonts/my-font.woff2",
+  "logo": "/logo.png",
+  "license": "CC-BY-SA",
+  "language": "en",
+  "basePath": "/hyperbook-github-pages",
+  "repo": {
+    "url": "https://github.com/mikebarkmin/hyperbook-github-pages/edit/main/%path%",
+    "label": "Edit on GitHub"
+  },
+  "colors": {
+    "brand": "#FF0000"
+  },
+  "elements": {
+    "bookmarks": false
+  },
+  "links": [
+    {
+      "label": "Contact",
+      "links": [
+        {
+          "label": "Mail",
+          "icon": "📧",
+          "href": "mailto:contact@openpatch.org"
+        },
+        {
+          "label": "Twitter",
+          "icon": "🐦",
+          "href": "https://twitter.com/openpatchorg"
+        },
+        {
+          "label": "Mastodon",
+          "icon": "🐘",
+          "href": "https://fosstodon.org/@openpatch"
+        },
+        {
+          "label": "Matrix (Chat)",
+          "icon": "👨‍💻",
+          "href": "https://matrix.to/#/#hyperbook:matrix.org"
+        }
+      ]
+    },
+    {
+      "label": "OpenPatch",
+      "href": "https://openpatch.org"
+    }
+  ]
+}
